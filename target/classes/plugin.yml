@@ -1,0 +1,34 @@
+name: TestPlugin
+version: '1.0-SNAPSHOT'
+main: me.elli0t43.testplugin.TestPlugin
+api-version: 1.17
+commands:
+  die:
+    description: A easy way to kill yourself.
+  god:
+    description: God Mode that makes you invincible.
+    aliases:
+      - gd
+      - g
+  feed:
+    description: Feed command.
+  conft:
+    description: config.yml test,
+  conftest:
+    description: same conft command but in another class
+  sendword:
+    description: nothing just send a word to a specific player
+  kill:
+    description: kill a specific player
+  heal:
+    description: Heal a specific Player.
+  vault:
+    description: Vault Command.
+  fly:
+    description: Fly command.
+  nfly:
+    description: no fly basically
+  tpbow:
+    description: Gives you teleport bow.
+  gui:
+    description: GUI test command
